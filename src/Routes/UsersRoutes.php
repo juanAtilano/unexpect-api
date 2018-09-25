@@ -15,7 +15,7 @@ class UsersRoutes
 
         $app->get('/usuarios', 'UsersController:getUsers')->setName('users.getAll');
         $app->post('/usuarios', 'UsersController:postUser')->setName('users.post');
-        $app->put('/usuarios/{id}', 'UsersController:putUser')->setName('users.put');
+        $app->put('/usuarios/{id}',  'UsersController:putUser')->setName('users.put');
 
     }
 }
